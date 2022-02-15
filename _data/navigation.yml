@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "Study"
+    sublinks:
+      - title: "Java Spring"
+        url: /categories/Java Spring/
+      - title: "Algorithm"
+        url: /categories/Algorithm/
+      - title: "Data Structure"
+        url: /categories/Data Structure/
+  - title: "Coding-Test"
+    sublinks: 
+      - title: "BOJ"
+        url: /categories/BOJ/
+  - title: "Project"
+    url: /categories/Project/
+  - title: "Daily Diary"
+    url: /categories/Daily Diary/
