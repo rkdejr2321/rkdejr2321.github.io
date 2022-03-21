@@ -8,6 +8,8 @@ main:
         url: /categories/Algorithm/
       - title: "Data Structure"
         url: /categories/Data Structure/
+      - title: "HTTP"
+        url: /categories/HTTP/
   - title: "Coding-Test"
     sublinks: 
       - title: "BOJ"
