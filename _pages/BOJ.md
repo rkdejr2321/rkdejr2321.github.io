@@ -1,10 +1,10 @@
 ---
-title: "Posts by BOJ"
+title: "백준 풀이"
 layout: category
 permalink: categories/BOJ/
 author_porfile: true
 taxonomy: BOJ
 
 ---
-## List
-*조언 지적 환영합니다
+
+> 조언 지적 환영합니다

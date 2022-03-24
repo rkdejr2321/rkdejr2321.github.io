@@ -1,10 +1,8 @@
 ---
-title: "Posts by Algorithm"
+title: "알고리즘 이론"
 permalink: /categories/Algorithm/
 author_porfile: true
 layout: category
 taxonomy: Algorithm
 ---
-
-## List
-*조언 지적 환영합니다
+> 조언 지적 환영합니다
