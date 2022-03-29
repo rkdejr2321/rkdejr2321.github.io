@@ -2,8 +2,8 @@
 main:
   - title: "Study"
     sublinks:
-      - title: "Java Spring"
-        url: /categories/Java Spring/
+      - title: "Spring Boot"
+        url: /categories/Spring Boot/
       - title: "Algorithm"
         url: /categories/Algorithm/
       - title: "Data Structure"
