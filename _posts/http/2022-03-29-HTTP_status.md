@@ -50,7 +50,7 @@ categories:
 
 ### 301 Moved Permanently
 리다이렉트시 요청 메소드가 **GET**으로 변하고, 본문이 제거될 수 있음
-<p align="center"><img src="../../assets/images/blogImg/301_moved_permanently.png"/></p>
+<p align="center"><img src="../../assets/images/blogImg/308_permanent_redirect.png"/></p>
 URI가 /event에서 /new-event로 변경되엇다고 가정해보자.  
 서버에서 변경된 /new-event uri와 301 응답코드를 보낸다.  
 브라우저에서 /new-event로 GET으로 요청하기 때문에 본문 내용이 제거된다.  
@@ -58,7 +58,7 @@ URI가 /event에서 /new-event로 변경되엇다고 가정해보자.
 
 ### 308 Permanent Redirect
 301과 기능은 같지만 리다이렉드 하고 **POST**요청을 유지해 기존에 보냈던 메세지가 유지 된다.
-<p align="center"><img src="../../assets/images/blogImg/308_permanent_redirect.png"/></p>
+<p align="center"><img src="../../assets/images/blogImg/301_moved_permanently.png"/></p>
 
 ### 302 Found
 리다이렉트 요청시 메서드가 **GET**으로 변하고, 본문이 제거될 수 있음
@@ -72,7 +72,7 @@ URI가 /event에서 /new-event로 변경되엇다고 가정해보자.
 리다이렉트시 요청 메서드가 **GET**으로 변경
 
 > PRG: **P**ost/**R**edirect/**G**et
-> > 중복 요청으로 인한 문제를 방지
+> 중복 요청으로 인한 문제를 방지
 > <p align="center"><img src="../../assets/images/blogImg/prg.png"/></p>
 > * URL이 이미 POST -> GET으로 리다이렉트 됨
 > * 새로고침 해도 GET으로 결과만 조회 - 중복 주문 방지
