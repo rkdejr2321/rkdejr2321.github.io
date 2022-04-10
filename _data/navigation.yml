@@ -18,3 +18,5 @@ main:
     url: /categories/Project/
   - title: "Daily Diary"
     url: /categories/Daily Diary/
+  - title: "Web"
+    url: /categories/Web/
