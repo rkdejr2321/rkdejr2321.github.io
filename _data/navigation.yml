@@ -1,19 +1,15 @@
 # main links
 main:
-  - title: "Study"
-    sublinks:
-      - title: "Spring Boot"
-        url: /categories/Spring Boot/
-      - title: "Algorithm"
-        url: /categories/Algorithm/
-      - title: "Data Structure"
-        url: /categories/Data Structure/
-      - title: "HTTP"
-        url: /categories/HTTP/
-  - title: "Coding-Test"
-    sublinks: 
-      - title: "BOJ"
-        url: /categories/BOJ/
+  - title: "Spring Boot"
+    url: /categories/Spring Boot/
+  - title: "Algorithm"
+    url: /categories/Algorithm/
+  - title: "Data Structure"
+    url: /categories/Data Structure/
+  - title: "HTTP"
+    url: /categories/HTTP/
+  - title: "BOJ"
+    url: /categories/BOJ/
   - title: "Project"
     url: /categories/Project/
   - title: "Daily Diary"
