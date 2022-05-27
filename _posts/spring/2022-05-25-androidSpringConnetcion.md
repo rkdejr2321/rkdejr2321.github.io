@@ -309,8 +309,8 @@ public class ApiTransferController {
 ~~~
 
 ## 결과
-<div><img src="../../assets/images/blogImg/android&spring_result.PNG"/></div>
-<div><img src="../../assets/images/blogImg/android&spring_result_log.PNG"/></div>
+<div><img src="../../assets/images/blogImg/android&spring_result.png"/></div>
+<div><img src="../../assets/images/blogImg/android&spring_result_log.png"/></div>
 
 
 
