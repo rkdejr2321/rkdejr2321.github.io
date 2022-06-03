@@ -9,7 +9,7 @@ categories:
 ---
 
 ## 스프링 시큐리티 설정
-회원 가입시 사용자가 설정한 비밀번호가 DB에 그대로 저장이 되면 보안에 매우 취약하기 때문에 해쉬 암호화를 한번 진행하고 저장해야한다. 이때 많이 쓰는 방법이 `₩BCryptPasswordEncoder`에 encode() 메소드를 사용하는 것이다. 스프링 시큐리티에서 제공하기 때문에 의존성을 추가해야한다.
+회원 가입시 사용자가 설정한 비밀번호가 DB에 그대로 저장이 되면 보안에 매우 취약하기 때문에 해쉬 암호화를 한번 진행하고 저장해야한다. 이때 많이 쓰는 방법이 `BCryptPasswordEncoder`에 encode() 메소드를 사용하는 것이다. 스프링 시큐리티에서 제공하기 때문에 의존성을 추가해야한다.  
 bulid.gradled에 추가
 ~~~
 implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security'
