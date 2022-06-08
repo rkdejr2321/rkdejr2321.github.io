@@ -18,3 +18,5 @@ main:
     url: /categories/Web/
   - title: "Java"
     url: /categories/Java
+  - title: "MySQL"
+    url: /categories/MySQL/
