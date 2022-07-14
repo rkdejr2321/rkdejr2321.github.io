@@ -106,11 +106,11 @@ author:
   avatar           : "/assets/images/profile_pic.jpg"
   bio              : "코린이의 개발 성장기📝"
   location         : "Seoul, Republic of Korea"
-  email            : 
+  email            :
   links:
-    - label: "E-mail"
+    - label: "rkdejr2321@naver.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:rkdejr2321@naver.com"
+      url: "mailto:rkdejr2321@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
