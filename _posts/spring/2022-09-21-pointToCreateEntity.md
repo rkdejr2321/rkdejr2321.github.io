@@ -1,5 +1,5 @@
 ---
-title: Entity 설계시 주의점점
+title: Entity 설계시 주의점
 excerpt: "JPA Entity"
 autor_porfile: true
 share: false
