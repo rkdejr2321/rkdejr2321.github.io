@@ -71,7 +71,7 @@ public String addItem(@Validated @ModelAttribute Item item, BindingResult bindin
 ```
 
 검증할 객체 앞에 `@Validate` 어노테이션을 붙여주면 검증기가 동작한다. 스프링 부트가 spring-boor-starter-validation 라이브러리를 넣으면 자동으로 Bean Validator를 인지하고 스프링에 통합한다.  
-`LocalValidatorFactoryBean`을 글로벌 Validator로 등록하고 이 Validator는 어노테이션을 보ㅗ 검증을 수행하기 때문에 @Valid, @Validation만 적용하면 된다. 만약 검증 오류가 발생하면, FieldError, ObjectError를 생성해서 BindingResult에 담아준다.
+`LocalValidatorFactoryBean`을 글로벌 Validator로 등록하고 이 Validator는 어노테이션을 보고 검증을 수행하기 때문에 @Valid, @Validation만 적용하면 된다. 만약 검증 오류가 발생하면, FieldError, ObjectError를 생성해서 BindingResult에 담아준다.
 
 > 주의할 점은 직접 검증기를 만들어 글로벌 Validator로 등록하면 스프링 부트는 Bean Validator를 등록하지 않아 어노테이션 기반의 빈 검증기가 동작하지 않는다.  
 > @Valid, @Validated 모두 사용 가능하지만 @Validated는 내부에 `groups`라는 기능을 포함하고 있다.
