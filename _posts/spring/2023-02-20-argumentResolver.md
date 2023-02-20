@@ -11,7 +11,7 @@ categories:
 ## ArgumentResolver란?
 `ArguemtResolver`는 HTTP 요청이 들어올 때 컨트롤러가 필요한 파라미터 객체를 요청 데이터를 기반으로 생성해준 후 컨트롤러를 호출하면서 값을 전달해준다. HttpServletRequest, Model은 물론이고 @RequestParam, @ModelAttribute와 같은 어노테이션 그리고 @RequestBody, HttpEntity와 같은 Http 메시지를 처리하는 부분도 지원한다. 스프링에서는 30개가 넘은 ArgumentResolver를 지원하지만 스프링에서 제공하는 객체 이외에 특정 객체가 올바른 요청에 의해 사용되어야 하는지 검증하기 위해서 ArgumentResolver를 사용할 수도 있다.
 
-> 스프링에서 제공하는 ArgumentResolver는 (공식 문서)[https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-annarguments]에서 참고하면 된다.
+> 스프링에서 제공하는 ArgumentResolver는 [공식 문서](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-annarguments)에서 참고하면 된다.
 
 ## 예제 코드
 예제로는 요청한 사용자의 로그인 여부를 확인하기 위해 세션이 있다면 세션에 있는 로그인 회원을 찾아주고, 세션이 없다면 null을 반환해주는 @Login 어노테이션을 만들어서 컨트롤러에 적용한다.
