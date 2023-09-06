@@ -60,3 +60,6 @@ categories:
 ## 회고
 이번 프로젝트를 하면서 기능 구현뿐만 아니라 요구사항 정의서, API 명세서, 다이어그램, UX/UI 등 실무에서 필요한 산출물도 작성하고 Edge-Device를 사용해 재밌는 기능 구현을 해봐서 좋은 프로젝트였다. 비록 MSA로 전환하고 로컬에서 실행은 되지만 더 나아가 컨테이너로 만들고 쿠버네티스를 적용하는 단계까지 완성하지 못한 아쉬움도 남아있다. 앞으로는 DDD(Domain Driven Design)에 대해 공부하고 쿠버네티스, 모니터링까지 해봐야겠다고 동기부여가 된 프로젝트였다.  
 15주 동안 같이 협업한 팀원들 너무 고생했고 곧 8주짜리 실무 프로젝트가 기다리고 있으니 남은 시간 부족한 부분과 아쉬운 점 잘 정리해서 실무 프로젝트도 성공적으로 마쳐야곘다. 
+
+## 코드
+<a href="https://github.com/KEA-BrainForm"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"/></a>
