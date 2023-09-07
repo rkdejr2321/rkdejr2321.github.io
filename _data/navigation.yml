@@ -12,8 +12,6 @@ main:
     url: /categories/BOJ/
   - title: "Project"
     url: /categories/Project/
-  - title: "Daily Diary"
-    url: /categories/Daily Diary/
   - title: "Web"
     url: /categories/Web/
   - title: "Java"
