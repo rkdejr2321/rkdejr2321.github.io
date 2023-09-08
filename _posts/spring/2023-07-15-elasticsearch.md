@@ -179,10 +179,12 @@ $ docker exec -it logstash bash
 ```
 
 ### logstash.yml 수정
+
 ```bash
 $ vi config/logstash.yml
 ```
-```vi
+
+```
 ==== 기존 내용
 http.host: "0.0.0.0"
 xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]
@@ -196,11 +198,12 @@ path.data: 'jdbc:mysql://<MySQL 주소>:<포트번호>/<데이터베이스 이�
 ```
 
 ### logstash.conf 수정
+
 ```bash
 $ vi pipeline/logstash.conf
 ```
 
-```vi
+```
 input {
   jdbc {
     jdbc_driver_library => "/usr/share/logstash/logstash-core/lib/jars/mysql-connector-j-8.0.32.jar"
