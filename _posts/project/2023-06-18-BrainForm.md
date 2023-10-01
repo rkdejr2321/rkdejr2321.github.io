@@ -62,4 +62,4 @@ categories:
 15주 동안 같이 협업한 팀원들 너무 고생했고 곧 8주짜리 실무 프로젝트가 기다리고 있으니 남은 시간 부족한 부분과 아쉬운 점 잘 정리해서 실무 프로젝트도 성공적으로 마쳐야곘다. 
 
 ## 코드
-<a href="https://github.com/KEA-BrainForm"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="https://github.com/kakao99-BrainForm"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"/></a>
