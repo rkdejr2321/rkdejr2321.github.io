@@ -22,3 +22,5 @@ main:
     url: /categories/JPA/
   - title: "CI/CD"
     url: /categories/CI-CD/
+  - title: "NCP"
+    url: /categories/ncp/
