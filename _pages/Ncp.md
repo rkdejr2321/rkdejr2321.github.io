@@ -1,7 +1,7 @@
 ---
 title: "Naver Cloud Plaform"
 layout: category
-permalink: categories/ncp/
+permalink: categories/NCP/
 author_porfile: true
 taxonomy: NCP
 
