@@ -48,3 +48,5 @@ docker pull {IMAGE}:{tag}
 # 실습
 <img src="../../assets/images/blogImg/ncp-gitlab-jenkins.png"/>
 
+# 출처
+이미지와 내용의 출처는 네이버클라우드 강의 (제목: [Container Registry를 활용한 CI 구축하기](https://youtu.be/lC3aiqhEJ2E?feature=shared))입니다.
