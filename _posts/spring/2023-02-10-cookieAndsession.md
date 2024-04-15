@@ -1,6 +1,6 @@
 ---
 title: 쿠키와 세션으로 로그인 처리
-excerpt: Cookie & Session
+excerpt: Cookie And Session
 autor_porfile: true
 share: false
 relate: false
