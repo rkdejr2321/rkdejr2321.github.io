@@ -294,3 +294,6 @@ def main(args):
 
 5. 인코딩 파일 확인
 <img src="../../assets/images/blogImg/ncp-vod-upload5.png"/>
+
+# 출처
+이미지와 내용의 출처는 네이버클라우드 블로그 (제목: [동영상 서비스 자동화 하기](https://blog.naver.com/n_cloudplatform/223003916024))입니다.
