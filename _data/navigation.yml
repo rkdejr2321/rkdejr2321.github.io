@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Spring Boot"
-    url: /categories/Spring Boot/
+  - title: "springboot"
+    url: /categories/springboot/
   - title: "Algorithm"
     url: /categories/Algorithm/
   - title: "Data Structure"

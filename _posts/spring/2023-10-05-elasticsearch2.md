@@ -5,7 +5,7 @@ autor_porfile: true
 share: false
 relate: false
 categories:
-    - Spring Boot
+    - springboot
 ---
 
 ## 스프링부트에 elastcisearch 추가

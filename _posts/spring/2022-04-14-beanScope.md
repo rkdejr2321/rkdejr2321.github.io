@@ -5,7 +5,7 @@ autor_porfile: true
 share: false
 relate: false
 categories:
-    - Spring Boot
+    - springboot
 ---
 
 ## 빈 스코프란?

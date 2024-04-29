@@ -5,7 +5,7 @@ autor_porfile: true
 share: false
 relate: false
 categories:
-    - Spring Boot
+    - springboot
 ---
 
 ## GET으로 서버에서 안드로이드로 데이터 전송 받기

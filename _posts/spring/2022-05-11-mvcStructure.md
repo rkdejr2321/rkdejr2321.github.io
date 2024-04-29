@@ -5,7 +5,7 @@ autor_porfile: true
 share: false
 relate: false
 categories:
-    - Spring Boot
+    - springboot
 ---
 
 ## 직접 만든 MVC VS Spring MVC 
