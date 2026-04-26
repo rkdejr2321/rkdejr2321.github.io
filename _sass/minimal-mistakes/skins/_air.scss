@@ -1,21 +1,21 @@
 /* ==========================================================================
-   Air skin
+   Notion-style skin
    ========================================================================== */
 
 /* Colors */
-$background-color: #eeeeee !default;
-$text-color: #222831 !default;
-$muted-text-color: #393e46 !default;
-$primary-color: #0092ca !default;
-$border-color: mix(#fff, #393e46, 100%) !default;
-$footer-background-color: $primary-color !default;
-$link-color: #393e46 !default;
+$background-color: #ffffff !default;
+$text-color: #37352f !default;
+$muted-text-color: #9b9a97 !default;
+$primary-color: #2383e2 !default;
+$border-color: #e9e9e7 !default;
+$footer-background-color: #2f3437 !default;
+$link-color: #2383e2 !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
-  color: #fff !important; // override
+  color: #a0a09e !important;
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
