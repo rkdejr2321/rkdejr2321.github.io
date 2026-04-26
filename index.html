@@ -1,180 +1,95 @@
 ---
 layout: home
-author_profile: true
+author_profile: false
 ---
 
-<div>
-<h2> 👨‍💻Author </h2>
-<p align="center" border = 1px solid #fff;>
-    <h4 align="center"> 서강덕 </h4>
-    <h4 align="center"> 1998.10.6 </h4>
-    <h4 align="center"><b>🛠 Tech Stack 🛠</b></h4>
-    <p align="center">
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/> 
-        <img src="https://img.shields.io/badge/Pyhon-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/>
-    </p>
-	<h3 align="center"><b> 📝 Learning... 📝</b></h3>
-	<p align="center">
-	<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"> &nbsp 
-	<img src="https://img.shields.io/badge/aws-333664?style=flat-square&logo=amazon-aws&logoColor=white"/></a>&nbsp 
-	<img src="https://img.shields.io/badge/Mysql-4479A1?style=flat-square&logo=MySql&logoColor=white"/></a>&nbsp 
-	<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>&nbsp 
-	<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/></a>&nbsp 
-	<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/></a>&nbsp 
-	</p>
-</p>
-</div>
-<hr>
+<!-- Hero -->
+<section class="pf-hero">
+  <div class="pf-hero__avatar">
+    <img src="/assets/images/logo.png" alt="서강덕">
+  </div>
+  <div class="pf-hero__text">
+    <p class="pf-hero__greeting">안녕하세요 👋</p>
+    <h1 class="pf-hero__name">서강덕</h1>
+    <p class="pf-hero__role">Backend Developer</p>
+    <p class="pf-hero__bio">가천대학교 컴퓨터공학과를 졸업하고 Kakaoenterprise에서 인턴을 경험한 백엔드 개발자입니다.<br>꾸준히 성장하고 기록하는 것을 좋아합니다.</p>
+    <div class="pf-hero__links">
+      <a href="mailto:rkdejr2321.netand@gmail.com" class="pf-btn">이메일 보내기</a>
+      <a href="https://github.com/rkdejr2321" class="pf-btn pf-btn--outline" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section>
 
-<h2> ⭐️Activity </h2>
-<p align="center">
-    <h4 align="center"> 2014 ~ 2017 한성고등학교 졸업 </h4>
-    <h4 align="center"> 2017 ~ 2024 가천대학교 컴퓨터공학과 17학번</h4>
-	<h4 align="center"> 2023.3 ~ 2023.8 Kakaoenterprise SW Academy 2기</h4>
-	<h4 align="center"> 2024.1 ~ 2024.3 Kakaoenterprise 인턴</h4>
-</p>
-<hr>
+<div class="pf-divider"></div>
 
-<h2> 📸History </h2>
-<html>
-<head>
-	<meta charset='utf-8'>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-	<style>
-	* {margin:0;padding:0;}
-	.section {width: 50%; height: 50%; margin: auto;}
-	.section input[id*="slide"] {display:none;}
-	.section .slide-wrap {max-width:1200px;margin:0 auto;}
-	.section .slidelist {white-space:nowrap;font-size:0;overflow:hidden;}
-	.section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
-	.section .slidelist > li > a {display:block;position:relative;}
-	.section .slidelist > li > a img {width:100%;}
-	.section .slidelist label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
-	.section .slidelist .left {left:30px;background:url('./assets/images/left.png') center center / 50% no-repeat;}
-	.section .slidelist .right {right:30px;background:url('./assets/images/right.png') center center / 50% no-repeat;}
-	.section .slidelist .textbox {position:absolute;z-index:1;top:8%;left:50%;transform:translate(-50%,-50%);line-height:1.6;text-align:center;}
-	.section .slidelist .textbox h3 {font-size:30px;color:#fff;opacity:0;transform:translateY(40px);transition:all .5s;}
-	.section .slidelist .textbox p {font-size:24px;color:#fff;opacity:0;transform:translateY(50px);transition:all .5s;}
-	.section input[id="slide01"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(0%);}
-	.section input[id="slide02"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(-100%);}
-	.section input[id="slide03"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(-200%);}
-    .section input[id="slide04"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(-300%);}
-    .section input[id="slide05"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(-400%);}
-	.section input[id="slide06"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(-500%);}
-	.section input[id="slide07"]:checked ~ .slide-wrap .slidelist > li {transform:translateX(-600%);}
-	.section input[id="slide01"]:checked ~ .slide-wrap li:nth-child(1) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide01"]:checked ~ .slide-wrap li:nth-child(1) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-	.section input[id="slide02"]:checked ~ .slide-wrap li:nth-child(2) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide02"]:checked ~ .slide-wrap li:nth-child(2) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-	.section input[id="slide03"]:checked ~ .slide-wrap li:nth-child(3) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide03"]:checked ~ .slide-wrap li:nth-child(3) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-    .section input[id="slide04"]:checked ~ .slide-wrap li:nth-child(4) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide04"]:checked ~ .slide-wrap li:nth-child(4) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-    .section input[id="slide05"]:checked ~ .slide-wrap li:nth-child(5) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide05"]:checked ~ .slide-wrap li:nth-child(5) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-	.section input[id="slide06"]:checked ~ .slide-wrap li:nth-child(6) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide06"]:checked ~ .slide-wrap li:nth-child(6) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-	.section input[id="slide07"]:checked ~ .slide-wrap li:nth-child(7) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
-	.section input[id="slide07"]:checked ~ .slide-wrap li:nth-child(7) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
-	</style>
-</head>
-<body>
+<!-- Tech Stack -->
+<section class="pf-section">
+  <h2 class="pf-section__title">Tech Stack</h2>
+  <div class="pf-tech">
+    <div class="pf-tech__group">
+      <p class="pf-tech__label">보유 기술</p>
+      <div class="pf-tech__chips">
+        <span class="pf-chip pf-chip--blue">C</span>
+        <span class="pf-chip pf-chip--blue">C++</span>
+        <span class="pf-chip pf-chip--blue">Python</span>
+        <span class="pf-chip pf-chip--blue">Java</span>
+        <span class="pf-chip pf-chip--blue">Android</span>
+      </div>
+    </div>
+    <div class="pf-tech__group">
+      <p class="pf-tech__label">학습 중</p>
+      <div class="pf-tech__chips">
+        <span class="pf-chip">Spring</span>
+        <span class="pf-chip">AWS</span>
+        <span class="pf-chip">MySQL</span>
+        <span class="pf-chip">React</span>
+        <span class="pf-chip">Oracle</span>
+        <span class="pf-chip">Docker</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="section">
-	<input type="radio" name="slide" id="slide01" checked>
-	<input type="radio" name="slide" id="slide02">
-	<input type="radio" name="slide" id="slide03">
-    <input type="radio" name="slide" id="slide04">
-    <input type="radio" name="slide" id="slide05">
-	<input type="radio" name="slide" id="slide06">
-	<input type="radio" name="slide" id="slide07">
-	<div class="slide-wrap">
-		<ul class="slidelist">
-			<li>
-				<a>
-					<label for="slide07" class="left"></label>
-					<div class="textbox">
-						<h3>2017</h3>
-					</div>
-					<img src="./assets/images/2017.jpg">
-					<label for="slide02" class="right"></label>
-				</a>
-			</li>
-			<li>
-				<a>
-					<label for="slide01" class="left"></label>
-					<div class="textbox">
-						<h3>2018</h3>
-					</div>
-					<img src="./assets/images/2018.jpg">
-					<label for="slide03" class="right"></label>
-				</a>
-			</li>
-			<li>
-				<a>
-					<label for="slide02" class="left"></label>
-					<div class="textbox">
-						<h3>2019</h3>
-					</div>
-					<img src="./assets/images/2019.jpg">
-					<label for="slide04" class="right"></label>
-				</a>
-			</li>
-            <li>
-				<a>
-					<label for="slide03" class="left"></label>
-					<div class="textbox">
-						<h3>2020</h3>
-					</div>
-					<img src="./assets/images/2020.jpg">
-					<label for="slide05" class="right"></label>
-				</a>
-			</li>
-            <li>
-				<a>
-					<label for="slide04" class="left"></label>
-					<div class="textbox">
-						<h3>2021</h3>
-					</div>
-					<img src="./assets/images/2021.jpg">
-					<label for="slide06" class="right"></label>
-				</a>
-			</li>
-			<li>
-				<a>
-					<label for="slide05" class="left"></label>
-					<div class="textbox">
-						<h3>2022</h3>
-					</div>
-					<img src="./assets/images/2022.jpg">
-					<label for="slide07" class="right"></label>
-				</a>
-			</li>
-			<li>
-				<a>
-					<label for="slide06" class="left"></label>
-					<div class="textbox">
-						<h3>2023</h3>
-					</div>
-					<img src="./assets/images/2023.jpg">
-					<label for="slide01" class="right"></label>
-				</a>
-			</li>
-		</ul>
-	</div>
-</div>
-</body>
-</html>
-<hr>
+<div class="pf-divider"></div>
 
-<h2> TMI </h2>
+<!-- Career -->
+<section class="pf-section">
+  <h2 class="pf-section__title">Career &amp; Education</h2>
+  <div class="pf-timeline">
+    <div class="pf-timeline__item">
+      <div class="pf-timeline__dot"></div>
+      <div class="pf-timeline__body">
+        <span class="pf-timeline__period">2024.01 – 2024.03</span>
+        <h4 class="pf-timeline__name">Kakaoenterprise 인턴</h4>
+        <p class="pf-timeline__desc">소프트웨어 개발 인턴십</p>
+      </div>
+    </div>
+    <div class="pf-timeline__item">
+      <div class="pf-timeline__dot"></div>
+      <div class="pf-timeline__body">
+        <span class="pf-timeline__period">2023.03 – 2023.08</span>
+        <h4 class="pf-timeline__name">Kakaoenterprise SW Academy 2기</h4>
+        <p class="pf-timeline__desc">소프트웨어 아카데미 수료</p>
+      </div>
+    </div>
+    <div class="pf-timeline__item">
+      <div class="pf-timeline__dot"></div>
+      <div class="pf-timeline__body">
+        <span class="pf-timeline__period">2017 – 2024</span>
+        <h4 class="pf-timeline__name">가천대학교 컴퓨터공학과</h4>
+        <p class="pf-timeline__desc">17학번 졸업</p>
+      </div>
+    </div>
+    <div class="pf-timeline__item">
+      <div class="pf-timeline__dot"></div>
+      <div class="pf-timeline__body">
+        <span class="pf-timeline__period">2014 – 2017</span>
+        <h4 class="pf-timeline__name">한성고등학교 졸업</h4>
+      </div>
+    </div>
+  </div>
+</section>
 
-MBTI: ISTJ<br>
-매운거❌<br>
-자이로드롭 못탐<br>
-공포영화 안봄(<del>못보는거 아님</del>)<br>
-⚽축구 좋아한다<br>
-집에서 코딩하다 혼난적 있다 시끄럽다고😭(에러 범벅이였음)
+<div class="pf-divider"></div>
+
+<p class="pf-posts-label">최근 포스트</p>
